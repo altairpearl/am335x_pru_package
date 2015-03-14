@@ -4,7 +4,11 @@ APP_DIRS += PRU_memAccess_DDR_PRUsharedRAM
 APP_DIRS += PRU_memAccessPRUDataRam
 APP_DIRS += PRU_PRUtoPRU_Interrupt
 APP_DIRS += PRU_industrialEthernetTimer
+<<<<<<< HEAD
+APP_DIRS += PRU_userledToggle
+=======
 
+>>>>>>> e4d44bdb1b0016c8a04868251f7de225af0b1e3a
 
 ASSEM_FILES :=
 
@@ -13,7 +17,11 @@ ASSEM_FILES += PRU_memAccessPRUDataRam/PRU_memAccessPRUDataRam.p
 ASSEM_FILES += PRU_PRUtoPRU_Interrupt/PRU_PRU0toPRU1_Interrupt.p
 ASSEM_FILES += PRU_PRUtoPRU_Interrupt/PRU_PRU1toPRU0_Interrupt.p
 ASSEM_FILES += PRU_industrialEthernetTimer/PRU_industrialEthernetTimer.p
+<<<<<<< HEAD
+ASSEM_FILES += PRU_userledToggle/PRU_userledToggle.p
+=======
 
+>>>>>>> e4d44bdb1b0016c8a04868251f7de225af0b1e3a
 
 BIN_FILES :=
 
@@ -22,3 +30,8 @@ BIN_FILES += PRU_memAccessPRUDataRam.bin
 BIN_FILES += PRU_PRU0toPRU1_Interrupt.bin
 BIN_FILES += PRU_PRU1toPRU0_Interrupt.bin
 BIN_FILES += PRU_industrialEthernetTimer.bin
+<<<<<<< HEAD
+BIN_FILES += PRU_userledToggle.bin
+
+=======
+>>>>>>> e4d44bdb1b0016c8a04868251f7de225af0b1e3a
